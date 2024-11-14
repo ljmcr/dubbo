@@ -29,7 +29,6 @@ import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.mock;
 
 class TaskQueueTest {
-
     private TaskQueue<Runnable> queue;
     private EagerThreadPoolExecutor executor;
 
